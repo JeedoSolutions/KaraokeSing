@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
- 
   <title>Karaoke Sing</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
  
  
-  
-
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container">
+        <footer class="bs-docs-footer josefin">
+          <br>
+          &copy; Karaoke-Sing 2016 | Todos los Derechos Reservados
+        </footer>
+      </div>
+    </nav>
 <%= yield %>
 </body>
 </html>

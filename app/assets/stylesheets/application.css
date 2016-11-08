@@ -15,10 +15,12 @@
  */
 
 /*------------------------- Layout styles ------------------------*/ 
+
 body{
 /*	background:url(bg-body.gif)	 repeat-x #811000;*/
-background:url(fondo_4.jpg) repeat-x #811000;
-	font-family: 'Signika', bold;
+	/*background:url(fondo_4.jpg) repeat-x #811000;*/
+	background-color:#88230F;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 p a{
@@ -56,7 +58,7 @@ p a{
 #header ul#navigation li a {
 	/*CAMBIAR COLOR DE LETRAS DE RENDER*/
 	color:#fff;
-	font-family:arial;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size:18px;
 	font-weight:400;
 	outline:none;
@@ -85,7 +87,7 @@ p a{
 #header ul.navigation li a {
 	color:#fec284;
 	display:block;
-	font-family:Times New Roman;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size:18px;
 	font-weight:700;
 	outline:none;
@@ -102,9 +104,7 @@ p a{
 	outline:none;
 	text-indent:10px;
 }
-#header a#logo img,#header ul.navigation li a img {
-	border:0;
-}
+
 
 /*-------------------------	Content --------------------------*/
 #body {
@@ -120,7 +120,7 @@ p a{
 }
 #body div h2 {
 	color:#f80;
-	font-family:Times New Roman;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size:24px;
 	font-weight:700;
 	margin:20px 0;
@@ -142,30 +142,7 @@ p a{
 	text-align:justify;
 	width:570px;
 }
-#body div#gallery {
-	margin:40px 0 0;
-	padding:0;
-	width:300px;
-}
-#body div#gallery h2 {
-	width:300px;
-}
-#body div#gallery ul {
-	background-color:#f80;
-	border:1px solid #65190E;
-	border-radius:5px;
-	height:300px;
-	list-style:none;
-	margin:0;
-	padding:0;
-}
-#body div#gallery ul li {
-	float:left;
-	padding:20px 0 0 20px;
-}
-#body div#gallery ul li a img {
-	border:1px solid #c76900;
-}
+
 .body {
 	margin:-120px auto 0;
 	min-height:1038px;
@@ -189,7 +166,7 @@ p a{
 .body ul.navigation li a {
 	color:#fec284;
 	display:block;
-	font-family:Times New Roman;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size:18px;
 	font-weight:700;
 	outline:none;
@@ -245,7 +222,7 @@ p a{
 }
 .body div h2 {
 	color:#f80;
-	font-family:Times New Roman;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size:40px;
 	font-weight:700;
 	margin:40px 0 10px;
@@ -253,7 +230,7 @@ p a{
 }
 .body div h3 {
 	color:#FFF;
-	font-family:arial;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size:14px;
 	line-height:28px;
 	margin:33px 0 0;
@@ -262,7 +239,7 @@ p a{
 }
 .body div h4 {
 	color:#fff;
-	font-family:arial;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size:14px;
 	margin:20px 0 14px;
 	text-transform:uppercase;
@@ -271,7 +248,7 @@ p a{
 	clear:both;
 	color:#c1c1c1;
 	float:left;
-	font-family:arial;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size:18px;
 	font-weight:700;
 	margin:40px 0 0;
@@ -279,7 +256,7 @@ p a{
 .body div h6 {
 	color:#F80;
 	float:left;
-	font-family:Times New Roman;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size:24px;
 	font-weight:700;
 	margin:36px 0 0 5px;
@@ -288,7 +265,7 @@ p a{
 .body div p {
 	clear:both;
 	color:#C1C1C1;
-	font-family:arial;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size:14px;
 	line-height:28px;
 	margin:0 0 10px;
@@ -298,7 +275,7 @@ p a{
 .body div span {
 	color:#C1C1C1;
 	float:left;
-	font-family:arial;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size:14px;
 	line-height:28px;
 	margin:0;
@@ -324,7 +301,7 @@ p a{
 }
 .body div div h3 {
 	color:#fff;
-	font-family:arial;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size:14px;
 	font-weight:700;
 	line-height:28px;
@@ -341,48 +318,18 @@ p a{
 }
 .body div#contact h4 {
 	color:#fff;
-	font-family:arial;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size:14px;
 	line-height:28px;
 	margin:20px 0 14px;
 	text-transform:none;
-}
-.body div#contact div#address,.body div#contact div#time {
-	border:0;
-	margin:25px 0 10px;
-}
-.body div#contact div#address p {
-	margin:0 0 5px;
-}
-.body div#contact div#time {
-	margin:10px 0 0;
-}
-.body div#contact div#time table {
-	margin:0 0 0 -2px;
-}
-.body div#contact div#time h4 {
-	margin:20px 0 5px;
-	text-transform:uppercase;
-}
-.body div#contact div#time tr {
-	color:#C1C1C1;
-	font-family:arial;
-	font-size:14px;
-	line-height:28px;
-	text-align:justify;
-}
-.body div#contact div#time td.day {
-	width:80px;
-}
-.body div#contact div#time td.time {
-	padding:0 0 0 12px;
 }
 .body div table {
 	margin:0 0 30px;
 }
 .body div table tr {
 	color:#C1C1C1;
-	font-family:arial;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size:14px;
 	line-height:24px;
 	text-align:justify;
@@ -446,32 +393,13 @@ p a{
 .body div#events div span {
 	color:#C1C1C1;
 }
-.body div#gallery h4 {
-	color:#C1C1C1;
-	line-height:28px;
-	text-align:justify;
-	text-transform:none;
-}
-.body div#gallery ul {
-	list-style:none;
-	margin:0;
-	padding:0;
-}
-.body div#gallery ul li {
-	float:left;
-	margin:0 0 20px;
-	padding:10px;
-}
-#body div#gallery ul li a img:hover,.body ul.navigation li a img:hover,.body div#gallery ul li a img:hover {
-	filter:alpha(opacity=80);
-	opacity:0.8;
-}
+
 .body ul.navigation li a img,.body div.last div:first-child ul li:first-child,.body div#gallery ul li a img {
 	border:0;
 }
 .body div.last div:first-child ul li a,.body div.last div ul li a {
 	color:#C1C1C1;
-	font-family:arial;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size:14px;
 	line-height:28px;
 	outline:none;
@@ -480,136 +408,18 @@ p a{
 .body div.last div:first-child ul li a:hover,.body div.last div ul li a:hover {
 	color:#F80;
 }
-.body div#contact div#time td,.body div table td {
-	padding:0;
-}
 
 /*-------------------------	Footer --------------------------*/
-#footer {
-	background:url("border-horizontal.gif") repeat-x #6a614f;
-	height:271px;
-	width:auto;
-	background-color:white;
-}
-#footer div {
-	margin:0 auto;
-	overflow:hidden;
-	padding:30px 10px 0;
-	width:960px;
-}
-#footer div div {
-	background:url("border-vertical.gif") no-repeat left center;
-	float:left;
-	height:140px;
-	padding:0 0 0 30px;
-	width:auto;
-}
-#footer div div#first {
-	background:none;
-	margin:0;
-	padding:0 30px 0 0;
-	width: 368px;
-	*width: 357px;
-}
-#footer div div p {
-	color:#9d9585;
-	font-family:arial;
-	font-size:14px;
-	margin: 10px 0;
-	padding: 0;
-	*padding-top: 0;
-	*margin: -20px 0 0 0;
-	text-align:left;
-}
-#footer div div h3 {
-	color:#9d9585;
-	font-family:arial;
-	font-size:14px;
-	padding:0 30px 0 0;
-	text-transform:uppercase;
-}
-#footer div div h4 {
-	color:#9D9585;
-	font-family:arial;
-	font-size:14px;
-	margin:14px 0 0;
-	padding:0;
-	text-transform:uppercase;
-}
-#footer div div a#facebook {
-	background:url("icons.gif") no-repeat;
-	color:#9d9585;
-	display:block;
-	font-family:arial;
-	font-size:14px;
-	font-weight:700;
-	height:26px;
-	line-height:25px;
-	outline:none;
-	padding:0 0 0 40px;
-	text-decoration:none;
-	text-transform:uppercase;
-	width:100px;
-}
-#footer div div a#facebook:hover,#footer div div a#twitter:hover {
-	color:#a7a39b;
-}
-#footer div div a#twitter {
-	background:url("icons.gif") no-repeat 0 -27px;
-	color:#9d9585;
-	display:block;
-	font-family:arial;
-	font-size:14px;
-	font-weight:700;
-	height:26px;
-	line-height:25px;
-	margin:10px 0 0;
-	outline:none;
-	padding:0 0 0 40px;
-	text-decoration:none;
-	text-transform:uppercase;
-	width:100px;
-}
-#footer div div a.logo {
-	color:#9d9686;
-	font-family:Lobster;
-	font-size:42px;
-	outline:none;
-	text-decoration:none;
-}
-#footer div div form {
-	overflow:hidden;
-}
-#footer div div form input#input {
-	border:0;
-	color:#7a4908;
-	float:left;
-	font-family:arial;
-	font-size:12px;
-	height:auto;
-	padding:3px 4px 2px;
-	width:218px;
-}
-#footer div div form input#submit {
-	background:url("button-subscribe.gif") no-repeat;
-	border:0;
-	cursor:pointer;
-	float:left;
-	height:20px;
-	margin:0 0 0 3px;
-	padding:0;
-	text-indent:-99999px;
-	width:70px;
-}
-#footer div p {
-	clear: both;
-    color: #9D9585;
-    font-family: arial;
-    font-size: 12px;
-    margin: 0;
-    padding-top: 30px;
-    text-align: center;
-}
-#footer div div h3 span,#footer div div h4 span {
-	font-size:22px;
+
+.bs-docs-footer {
+      background-color:#811201;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      padding-left:20px;
+      padding-right:20px;
+      color:white;
+      font-family: 'Josefin Sans', sans-serif;
 }

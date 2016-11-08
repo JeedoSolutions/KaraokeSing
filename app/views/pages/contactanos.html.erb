@@ -1,116 +1,58 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Contacto</title>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	</head>
-	<body>
-		<div id="header">
-			<ul id="navigation">
-			<%= render 'layouts/menu' %>
+<body>
+	<div id="header">
+		<ul id="navigation">
+		<%= render 'layouts/menu' %>
+		</ul>
+	</div>
+	<div class="body">
+		<ul class="navigation">
+				<li>
+			<a href="menu.html" id="link1">PIQUEOS</a>
+		<%= image_tag "button-menu.jpg" %>
+		</li>
+		<li>
+			<a href="rooms.html" id="link2">BOXES</a>
+			<%= image_tag "button-rooms.jpg" %>
+		</li>
+		<li>
+			<%= image_tag "button-events.jpg" %>
+			<a href="eventos.html" id="link3">EVENTOS</a>
+		</li>
+		<li>
+			<%= image_tag "button-drinks.jpg" %>
+			<a href="producto.html" id="link4">BEBIDAS</a>
+		</li>
 			</ul>
-		</div>
-		<div class="body">
-			<ul class="navigation">
-					<li>
-    			<a href="menu.html" id="link1">PIQUEOS</a>
-    		<%= image_tag "button-menu.jpg" %>
-    		</li>
-    		<li>
-    			<a href="rooms.html" id="link2">BOXES</a>
-    			<%= image_tag "button-rooms.jpg" %>
-    		</li>
-    		<li>
-    			<%= image_tag "button-events.jpg" %>
-    			<a href="events.html" id="link3">EVENTOS</a>
-    		</li>
-    		<li>
-    			<%= image_tag "button-drinks.jpg" %>
-    			<a href="producto.html" id="link4">BEBIDAS</a>
-    		</li>
-				</ul>
-			<div id="contact">
-				<h2>Contact Us</h2>
-				<h4>This website template has been designed by freewebsitetemplates.com for you, for free. You can replace all this text with your own text.</h4>
-				<p>This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text.
-				You can remove any link to our website from this website template, you're free to use this website template without linking back to us.
-				If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forum/">Forum</a>.</p>
-				
-				<div id="address">
-					<p>Address : 32 Morbi Suscipit Semquis Aliquet Consequat, 1234</p>
-					<p>For Bookings & Reservation : (864) 232-3706</p>
-					<p>Office Phone Number : (864) 232-3553</p>
-					<p>Fax Number : (864) 232-4160</p>
-					<p>Email : info@companyname.com</p>
-				</div>
-				
-				<div id="time">
-					<h4>Hours of operation</h4>
-					<table>
-						<tr>
-							<td class="day">Monday</td>
-							<td>:</td>
-							<td class="time">10:30 am - 3:00 am</td>
-						</tr>
-						<tr>
-							<td class="day">Tuesday</td>
-							<td>:</td>
-							<td class="time">10:30 am - 3:00 am</td>
-						</tr>
-						<tr>
-							<td class="day">Wednesday</td>
-							<td>:</td>
-							<td class="time">10:30 am - 3:00 am</td>
-						</tr>
-						<tr>
-							<td class="day">Thursday</td>
-							<td>:</td>
-							<td class="time">10:30 am - 3:00 am</td>
-						</tr>
-						<tr>
-							<td class="day">Friday</td>
-							<td>:</td>
-							<td class="time">10:30 am - 3:00 am</td>
-						</tr>
-						<tr>
-							<td class="day">Saturday</td>
-							<td>:</td>
-							<td class="time">10:30 am - 3:00 am</td>
-						</tr>
-						<tr>
-							<td class="day">Sunday</td>
-							<td>:</td>
-							<td class="time">10:30 am - 3:00 am</td>
-						</tr>
-					</table>
-				</div>
+		<div id="contact">
+			<h2>Ubicación</h2>
+			<h4>Dirección:</h4>
+			<p>Calle Manuel Bonilla 189 - Miraflores - Lima, Perú</p>
+			<h4>Teléfono:</h4>
+			<p>(51) 5051111</p>
+
+			
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.8865154330597!2d-77.02950738518675!3d-12.119916591418617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81a1c459c2f%3A0xcea3ca37e70a141e!2sCalle+Manuel+Bonilla%2C+Miraflores+15074%2C+Per%C3%BA!5e0!3m2!1ses!2ses!4v1478633012965" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			
+			<div id="time">
+				<h4>Horarios de atención:</h4>
+				<table>
+					<tr>
+						<td class="day">Lunes a Viernes</td>
+						<td>:</td>
+						<td class="time">7:00 pm - 2:00 am</td>
+					</tr>
+					<tr>
+						<td class="day">Sábado</td>
+						<td>:</td>
+						<td class="time">7:00 pm - 3:00 am</td>
+					</tr>
+					<tr>
+						<td class="day">Feriados</td>
+						<td>:</td>
+						<td class="time">7:00 pm - 3:00 am</td>
+					</tr>
+				</table>
 			</div>
 		</div>
-		<div id="footer">
-			<div>
-				<div id="first">
-					<a href="index.html" class="logo">Karaoke Night</a>
-					<p>email@email.com    Tel: +89 2980 3600</p>
-					<p>7000 Ut placerat accumsan sem enean dapibu</p>
-					<p>Cras molestie metus Co. Ltd, Pellentes ABC 100</p>
-				</div>
-				<div>
-					<h3><span>Connect</span> with us</h3>
-					<a href="http://facebook.com/freewebsitetemplates" id="facebook">Facebook</a>
-					<a href="http://twitter.com/fwtemplates" id="twitter">Twitter</a>
-				</div>
-				<div>
-					<h4>Subscribe to our <span>NEWSLETTER</span></h4>
-					<p>Placerat accumsan sem enean dapibus Cra</p>
-					<p>molestie metus  vitae urna eget tellus ultricie</p>
-					<form action="">
-						<input type="text" id="input" value="Enter Email Address" onblur="this.value=!this.value?'Enter Email Address':this.value;" onfocus="this.select()" onclick="this.value='';">
-						<input type="submit" id="submit" value="">
-					</form>
-				</div>
-				<p>&#169; Copyright 2011. All Rights Reserved.</p>
-			</div>
-		</div>
-	</body>
-</html>  
+	</div>
+</body>
