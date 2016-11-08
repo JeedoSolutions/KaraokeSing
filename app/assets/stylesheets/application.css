@@ -16,11 +16,13 @@
 
 /*------------------------- Layout styles ------------------------*/ 
 body{
-	background:url(../images/bg-body.gif) repeat-x #811000;
-	font-family: 'Coiny', cursive
+/*	background:url(bg-body.gif)	 repeat-x #811000;*/
+background:url(fondo_4.jpg) repeat-x #811000;
+	font-family: 'Signika', bold;
 }
+
 p a{
-	color: #ff8800;
+/*	color: #ff8800;*/
 }
 
 /*------------------------- Header --------------------------*/
@@ -31,7 +33,7 @@ p a{
 	width:940px;
 }
 #header div {
-	background:url(../images/girls-singing.jpg) no-repeat -35px 95px;
+	background:url("girls-singing.jpg") no-repeat -35px 95px;
 }
 #header a#logo {
 	display:block;
@@ -52,6 +54,7 @@ p a{
 	padding:14px 0 0;
 }
 #header ul#navigation li a {
+	/*CAMBIAR COLOR DE LETRAS DE RENDER*/
 	color:#fff;
 	font-family:arial;
 	font-size:18px;
@@ -61,7 +64,7 @@ p a{
 	text-shadow:-1px -1px 1px #450b03;
 }
 #header ul#navigation li.selected {
-	background:url(../images/menu-selected.gif) no-repeat top center;
+	background:url("menu-selected.gif") no-repeat top center;
 }
 #header ul#navigation li.selected a,#header ul#navigation li a:hover {
 	color:#f80;
@@ -483,7 +486,7 @@ p a{
 
 /*-------------------------	Footer --------------------------*/
 #footer {
-	background:url(../images/border-horizontal.gif) repeat-x #6a614f;
+	background:url("border-horizontal.gif") repeat-x #6a614f;
 	height:271px;
 	width:auto;
 	background-color:white;
@@ -495,7 +498,7 @@ p a{
 	width:960px;
 }
 #footer div div {
-	background:url(../images/border-vertical.gif) no-repeat left center;
+	background:url("border-vertical.gif") no-repeat left center;
 	float:left;
 	height:140px;
 	padding:0 0 0 30px;
@@ -534,7 +537,7 @@ p a{
 	text-transform:uppercase;
 }
 #footer div div a#facebook {
-	background:url(../images/icons.gif) no-repeat;
+	background:url("icons.gif") no-repeat;
 	color:#9d9585;
 	display:block;
 	font-family:arial;
@@ -552,7 +555,7 @@ p a{
 	color:#a7a39b;
 }
 #footer div div a#twitter {
-	background:url(../images/icons.gif) no-repeat 0 -27px;
+	background:url("icons.gif") no-repeat 0 -27px;
 	color:#9d9585;
 	display:block;
 	font-family:arial;
@@ -588,7 +591,7 @@ p a{
 	width:218px;
 }
 #footer div div form input#submit {
-	background:url(../images/button-subscribe.gif) no-repeat;
+	background:url("button-subscribe.gif") no-repeat;
 	border:0;
 	cursor:pointer;
 	float:left;

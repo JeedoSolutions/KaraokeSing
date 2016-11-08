@@ -1,20 +1,20 @@
 class PagesController < ApplicationController
   def about
   end
-  def blog
+  def nosotros
   end
-  def contact
+  def contactanos
   end
-  def drinks
+  def productos
   end
-  def events
-  end
-  def gallery
-  end
-  def index
+  def eventos
   end
   def menu
   end
-  def rooms
+  def boxes
+  end
+  def galeria
+  end
+  def comentarios
   end
 end

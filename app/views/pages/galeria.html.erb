@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Galeria</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+	</head>
+	<body>
+		<div id="header">
+			<ul id="navigation">
+    			<%= render 'layouts/menu' %>
+    		</ul>
+		</div>
+		<div class="body">
+			<ul class="navigation">
+					<li>
+    			<a href="menu.html" id="link1">PIQUEOS</a>
+    		<%= image_tag "button-menu.jpg" %>
+    		</li>
+    		<li>
+    			<a href="rooms.html" id="link2">BOXES</a>
+    			<%= image_tag "button-rooms.jpg" %>
+    		</li>
+    		<li>
+    			<%= image_tag "button-events.jpg" %>
+    			<a href="events.html" id="link3">EVENTOS</a>
+    		</li>
+    		<li>
+    			<%= image_tag "button-drinks.jpg" %>
+    			<a href="producto.html" id="link4">BEBIDAS</a>
+    		</li>
+			</ul>
+			<div id="gallery">
+				<h2>Galería de Fotos</h2>
+				<h4>Aliquam semper felis et nunc egestas placerat. Sed vel erat et orci lacinia dapibus. Nulla cursus nisi vel dolor venenatis aliquam fusce consectetur,</h4>
+				
+				<ul>
+					<li><a href="#"><%= image_tag "girl-sing3.jpg" %></a></li>
+					<li><a href="#"><%= image_tag "group-singing2.jpg" %></a></li>
+					<li><a href="#"><%= image_tag "girls-singing2.jpg" %></a></li>
+					<li><a href="#"><%= image_tag "girl-smiling3.jpg" %></a></li>
+					<li><a href="#"><%= image_tag "boys-drinking3.jpg" %></a></li>
+					<li><a href="#"><%= image_tag "asian-girl-singing.jpg" %></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="footer">
+			<div>
+				<div id="first">
+					<a href="index.html" class="logo">Karaoke Sing</a>
+					<p>email@email.com    Tel: +89 2980 3600</p>
+					<p>7000 Ut placerat accumsan sem enean dapibu</p>
+					<p>Cras molestie metus Co. Ltd, Pellentes ABC 100</p>
+				</div>
+				<div>
+					<h3><span>Connect</span> with us</h3>
+					<a href="http://facebook.com/freewebsitetemplates" id="facebook">Facebook</a>
+					<a href="http://twitter.com/fwtemplates" id="twitter">Twitter</a>
+				</div>
+				<div>
+					<h4>Subscribe to our <span>NEWSLETTER</span></h4>
+					<p>Placerat accumsan sem enean dapibus Cra</p>
+					<p>molestie metus  vitae urna eget tellus ultricie</p>
+					<form action="">
+						<input type="text" id="input" value="Enter Email Address" onblur="this.value=!this.value?'Enter Email Address':this.value;" onfocus="this.select()" onclick="this.value='';">
+						<input type="submit" id="submit" value="">
+					</form>
+				</div>
+				<p>&#169; Copyright 2011. All Rights Reserved.</p>
+			</div>
+		</div>
+	</body>
+</html>  
