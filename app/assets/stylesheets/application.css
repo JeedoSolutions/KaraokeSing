@@ -16,6 +16,11 @@
 
 /*------------------------- Layout styles ------------------------*/ 
 
+/*------------------------- FONDO ------------------------*/ 
+
+
+/*------------------------- Layout styles ------------------------*/ 
+
 body{
 /*	background:url(bg-body.gif)	 repeat-x #811000;*/
 	/*background:url(fondo_4.jpg) repeat-x #811000;*/
@@ -32,7 +37,8 @@ p a{
 	margin:0 auto;
 	overflow:hidden;
 	padding:0 10px;
-	width:940px;
+	margin:0 0 0 305px;
+	width:1080px;
 }
 #header div {
 	background:url("girls-singing.jpg") no-repeat -35px 95px;
@@ -40,16 +46,28 @@ p a{
 #header a#logo {
 	display:block;
 	float:left;
-	height:237px;
+	height:100px;
 	outline:none;
-	width:360px;
+	width:100px;
 }
+
+
 #header ul#navigation {
 	float:left;
 	list-style:none;
-	margin:0 0 0 110px;
+	margin:0 0 0 35px;
 	padding:0;
+		font-family: 'Josefin Sans', sans-serif;
 }
+
+.fotos {
+	float:left;
+	list-style:none;
+	margin:0 0 0 35px;
+	padding:0;
+		font-family: 'Josefin Sans', sans-serif;
+}
+
 #header ul#navigation li {
 	float:left;
 	margin:0 32px 0 0;
@@ -314,7 +332,7 @@ p a{
 	float:none;
 	margin:0;
 	text-align:left;
-	width:auto;
+	width:690px;
 }
 .body div#contact h4 {
 	color:#fff;
